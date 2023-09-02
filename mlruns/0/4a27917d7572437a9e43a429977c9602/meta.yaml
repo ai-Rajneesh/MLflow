@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/rajneeshyadav/Desktop/Raj4.0/FSDS%202.0/MLflow/mlruns/0/4a27917d7572437a9e43a429977c9602/artifacts
+end_time: 1693495740963
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4a27917d7572437a9e43a429977c9602
+run_name: caring-bear-454
+run_uuid: 4a27917d7572437a9e43a429977c9602
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693495740899
+status: 3
+tags: []
+user_id: rajneeshyadav

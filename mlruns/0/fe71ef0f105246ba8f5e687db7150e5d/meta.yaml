@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/rajneeshyadav/Desktop/Raj4.0/FSDS%202.0/MLflow/mlruns/0/fe71ef0f105246ba8f5e687db7150e5d/artifacts
+end_time: 1693317329440
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fe71ef0f105246ba8f5e687db7150e5d
+run_name: casual-newt-560
+run_uuid: fe71ef0f105246ba8f5e687db7150e5d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693317329428
+status: 3
+tags: []
+user_id: rajneeshyadav

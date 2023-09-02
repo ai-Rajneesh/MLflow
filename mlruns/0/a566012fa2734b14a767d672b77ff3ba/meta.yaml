@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/rajneeshyadav/Desktop/Raj4.0/FSDS%202.0/MLflow/mlruns/0/a566012fa2734b14a767d672b77ff3ba/artifacts
+deleted_time: 1693496315698
+end_time: 1693495425686
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: a566012fa2734b14a767d672b77ff3ba
+run_name: popular-gnat-246
+run_uuid: a566012fa2734b14a767d672b77ff3ba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693495424927
+status: 4
+tags: []
+user_id: rajneeshyadav
