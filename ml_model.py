@@ -5,10 +5,8 @@ import os
 import mlflow
 import mlflow.sklearn
 
-
 from sklearn.linear_model import LinearRegression,Lasso,Ridge,ElasticNet
-from sklearn.metrics import r2_score,mean_absolute_error,mean_squared_error, accuracy_score
-
+from sklearn.metrics import r2_score,mean_absolute_error,mean_squared_error
 from sklearn.model_selection import train_test_split
 
 from sklearn.impute import SimpleImputer ## Handling Missing Values
@@ -18,11 +16,7 @@ from sklearn.preprocessing import OrdinalEncoder # Ordinal Encoding
 from sklearn.pipeline import Pipeline
 from sklearn.compose import ColumnTransformer
 
-
-
 def get_data():
-    #URL = "https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-red.csv"
-    
     try:
         df = pd.read_csv('/Users/rajneeshyadav/Desktop/Raj4.0/FSDS 2.0/MLflow/notebooks/data/gemstone.csv')
         return df
@@ -37,9 +31,6 @@ def evaluate(y_true,y_pred):
     
     return mae,mse,rmse,r2
     
-    
-    
-
 def main():
     df = get_data() 
     
@@ -93,23 +84,14 @@ def main():
         model2.fit(X_train_preprocessed, y_train)
         pred=model2.predict(X_test_preprocessed)'''
         
-        
-        
-        
-    
-    
         #evalute the model
         mae,mse,rmse,r2=evaluate(y_test,pred)
     
         mlflow.log_metric('r2_score',r2)
-        
         #mlflow model logging
         mlflow.sklearn.log_model(regression,"LinearRegressionModel")
-        
-    
         print(f"mean absolute error {mae}, mean squared error {mse}, root mean squared error {rmse}, r2_score {r2}")
     
-
 if __name__ == '__main__':
     try:
         main()
